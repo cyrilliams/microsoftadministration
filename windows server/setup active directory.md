@@ -1,8 +1,8 @@
 # Set Up Active Directory
 
+We will now setup Active Directory on our Domain Controller:
 
-
-Now, let's search for Active Directory Users and Computers
+Let's search for Active Directory Users and Computers on the server:
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/064305e6-555f-4ce4-9a85-ed2d36403246" />
 
@@ -13,11 +13,11 @@ Now we can see that we have our Domain with our Domain Controller in it:
 
 ## Add OU's and Users
 
-### Orginizational Units
+### Organizational Units
 
-Next, we'll want to add one/multiple OU's (Orginizational Units)
+Next, we'll want to add one/multiple OU's (Organizational Units)
 
-We'll right click our Domain > New > Organizaitonal Unit
+We'll right click our Domain > New > Organizational Unit
 
 We'll name our OU
 
@@ -59,5 +59,10 @@ We are now joined to cyriltest.site:
 We'll do a quick restart and we can see that we have the option for 'Other users':
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9e3035f9-894f-4801-bdeb-8c561309341c" />
+
+*After adding our user to the Remote Desktop User group,* we are now able to log in with our created user from our Windows 11 machine:
+
+<img width="1282" height="1089" alt="image" src="https://github.com/user-attachments/assets/f942e78a-6330-4152-adb8-34dc84d93120" />
+
 
 
