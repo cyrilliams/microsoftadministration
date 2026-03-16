@@ -38,10 +38,26 @@ We'll input the user's info and create a password:
 
 Let's add a Windows 11 device to our Domain.
 
+First, we'll set our DNS to point to our Domain Controller:
+
+<img width="395" height="446" alt="image" src="https://github.com/user-attachments/assets/828ccbad-4828-46bf-8ee7-e34904bb57b2" />
+
+
+
 From our Desktop, we'll do **Win + R > 'systempropertiesadvanced' > Computer Name > Change** and enter our device name and domain:
 
 <img width="321" height="384" alt="image" src="https://github.com/user-attachments/assets/71401775-1fd0-486f-bb8f-c1b3ce969dd9" />
 
+If setup successfully, we should get a prompt for Admin Credentials:
 
+<img width="837" height="519" alt="image" src="https://github.com/user-attachments/assets/d2600667-59df-4d94-a43b-c8cebaa97065" />
+
+We are now joined to cyriltest.site:
+
+<img width="281" height="147" alt="image" src="https://github.com/user-attachments/assets/dcc1f813-ff2c-4546-8e6e-453b149b5eba" />
+
+We'll do a quick restart and we can see that we have the option for 'Other users':
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9e3035f9-894f-4801-bdeb-8c561309341c" />
 
 
