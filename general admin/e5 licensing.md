@@ -42,3 +42,24 @@ As well as gives us Entra ID (formerly Azure Active Directory), Intune, Defender
 
 ---
 
+We'll start the trial to get all features of E5 for 30 days.
+
+<img width="2554" height="1235" alt="image" src="https://github.com/user-attachments/assets/fb62d36e-05fb-4abc-9007-f689d41323cd" />
+
+In the Admin Portal, if we go to **Billing > Licenses**, we can see the newly added Microsoft E5 License
+
+<img width="2166" height="635" alt="image" src="https://github.com/user-attachments/assets/a0ae34ab-759d-43e3-944c-35386657fa14" />
+
+---
+
+Let's Assign A License
+
+
+In Admin Portal, we'll go to **Users > Active Users > (select the user) > Licenses and apps**
+
+Now we'll check off E5 and Save:
+
+<img width="1159" height="682" alt="image" src="https://github.com/user-attachments/assets/25c4a2fe-4fe0-4788-9865-5d6eee7945c5" />
+
+Now our user has all features that come with Microsoft E5
+
