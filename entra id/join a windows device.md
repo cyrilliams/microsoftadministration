@@ -27,9 +27,6 @@ Now if we go to 'Access work or school', we can see that I am not only signed in
 
 <img width="1708" height="960" alt="image" src="https://github.com/user-attachments/assets/03ab87d3-8f9e-4d76-a71c-c3ffda0a9b15" />
 
-In Entra ID, we can see the device has been added:
-
-<img width="1478" height="550" alt="image" src="https://github.com/user-attachments/assets/2953326d-005f-442e-bc18-7f13d1c38c75" />
 
 ## Join A Configured Device
 
@@ -66,4 +63,29 @@ As well as getting the 'Other user' option as well at the sign in screen:
 Now we can log in with our Entra ID account:
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/4594a5de-0198-4908-86f6-0a1ab8415d57" />
+
+---
+
+In Entra ID, we can see the device has been added:
+
+<img width="1478" height="550" alt="image" src="https://github.com/user-attachments/assets/2953326d-005f-442e-bc18-7f13d1c38c75" />
+
+
+---
+
+## Joined vs Registered
+
+It is also important to note that Entra joined and registered are different:
+
+Entra joined:
+- Used for company‑owned Windows devices.
+- User signs in with Entra ID credentials only.
+- Device is fully manageable by Intune/MDM.
+- Gives full SSO to organization resources.
+  
+Entra registered:
+- Used for BYOD (Bring Your Own Device).
+- User signs into the device with personal account, but signs into work apps with Entra ID.
+- Limited management—typically only app-level controls (e.g., conditional access).
+- Does NOT replace the primary login on the device.
 
