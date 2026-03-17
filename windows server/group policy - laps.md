@@ -18,7 +18,8 @@ Press 'A' for all
 
 Then verify it worked by selecting a computer object and checking if the LAPS tab was added:
 
-<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/a77484fd-6a09-4ea1-b437-4103633767c6" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/c9c988df-9ad5-4476-8bb5-4e491eaffd80" />
+
 
 Then we will run the following command to allow computers to change their passwords:
 ```ps1
