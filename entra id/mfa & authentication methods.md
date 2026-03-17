@@ -51,3 +51,20 @@ you can do that here:
 *You can also enable MFA on a per user basis but that is not recommended*
 
 <img width="1316" height="938" alt="image" src="https://github.com/user-attachments/assets/1209cd8c-8d74-4862-b3aa-bf16b2511abf" />
+
+---
+
+## Enable SSPR (Self Service Password Reset)
+
+If you want to allow user's of your org to reset their own passwords,
+you can do that in the 'Password reset' portal in Entra:
+
+<img width="329" height="88" alt="image" src="https://github.com/user-attachments/assets/21effde9-244c-4221-8f35-ec8f03fb5742" />
+
+You can enforce at least 1 or 2 methods of authentication be set before users reset their password:
+
+<img width="876" height="170" alt="image" src="https://github.com/user-attachments/assets/cccef30c-eff0-4625-9712-687c095e3095" />
+
+You can also set if end user's need to register and how long until they need to re-confirm authentication:
+
+<img width="909" height="163" alt="image" src="https://github.com/user-attachments/assets/fa842085-4d41-440b-abd7-63f2627d3807" />
