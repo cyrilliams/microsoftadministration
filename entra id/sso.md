@@ -3,8 +3,11 @@
 
 # Setting Up SSO with Entra ID
 
-While I won't be using it for this personal project, 
-I would like to set up SSO to use Entra ID to log in rather than creating a username and password directly through the app itself.
+In this doc, we will set up SSO (single sign on) with an application called MEMOS. 
+
+The goal of this will be to use our Entra ID logins rather than host our login through the app.
+
+## Setup SSO
 
 Let's go to the SSO menu and click Create:
 
