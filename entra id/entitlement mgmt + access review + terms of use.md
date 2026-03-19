@@ -47,10 +47,37 @@ We'll create and see that our Access Package has been listed:
 
 If we login as a user to myaccount.microsoft.com, we can go to **My Access > Access Packages**
 
+<img width="2530" height="658" alt="image" src="https://github.com/user-attachments/assets/9ead3249-7222-4d7f-896e-e6795a797fa2" />
+
+If we click Request or click the name of the Access Package, we get this:
+
+<img width="595" height="476" alt="image" src="https://github.com/user-attachments/assets/14c3bada-7662-405e-8eab-7e09fc43b73b" />
+
+Since we added a question and a justifcation, we get this next screen:
+
+<img width="588" height="527" alt="image" src="https://github.com/user-attachments/assets/dba3bde5-d9e4-48a8-8435-ad196021b003" />
+
+It's been requested. Let's check the Admin account for the request.
+
+<img width="385" height="126" alt="image" src="https://github.com/user-attachments/assets/1bfb0ce2-3920-41cd-841d-2612c4b5d4ec" />
+
+If we go to **myaccount.microsoft.com > My Access > Approvals**, in our Admin account, we can see our request has populated:
+
+<img width="2552" height="707" alt="image" src="https://github.com/user-attachments/assets/a7d13391-ae2b-4b10-b83c-d393f5bbe6ea" />
+
+Let's approve and provide a reason:
+
+<img width="407" height="782" alt="image" src="https://github.com/user-attachments/assets/c42fd640-ec1f-43a1-a987-f01fe24e0ea6" />
+
+Now if we refresh our User account, we can see they are in the Entitlement Group that they were previosuly not in:
+
+<img width="2327" height="575" alt="image" src="https://github.com/user-attachments/assets/59984bf8-83be-45be-8017-2d4c1aa5ae7c" />
+
+Entra has updated as well:
+
+<img width="2198" height="486" alt="image" src="https://github.com/user-attachments/assets/4b74589b-f8f0-4c08-9da1-c6af3a505e94" />
 
 
-*Unfinished - unfortunately something in my domain/identity is not setup correctly and is not allowing users to see access packages
-In the scenario, the user would request an access package, the admin would allow or deny that request, and the user would be enrolled into whatever resource was configured*
 
 ---
 
