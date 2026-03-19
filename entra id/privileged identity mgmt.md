@@ -46,7 +46,7 @@ We'll click 'Assign' and see that it's populated:
 
 <img width="1845" height="328" alt="image" src="https://github.com/user-attachments/assets/ddc8682b-2c74-42be-881b-1c595c5e110e" />
 
-## Activate Eligible Role
+### Activate Eligible Role
 
 *With the Helpdesk Admin role, we should be able to reset user's passwords*
 
@@ -76,5 +76,32 @@ Now, if the Write account tries to reset a password, we are able to:
 
 <img width="380" height="308" alt="image" src="https://github.com/user-attachments/assets/61778d50-81d2-44ee-9560-6447cebb9458" />
 
+---
 
+## PIM for Azure Resources
+
+We can also apply PIM for Azure Roles.
+
+Let's go to **Entra ID > ID Gov. > Azure resources**, and select the Subcription or Management Group, then Resource:
+
+<img width="1084" height="1125" alt="image" src="https://github.com/user-attachments/assets/afc2975f-f095-4ba9-83e1-9cb4b0d469af" />
+
+
+Click 'Manage resource' then **Assignments > Add assignments**
+
+Let's say I want my Write account to be Eligible to be a Network Contributor for my 'cyrilnetwork-rg', 
+we can assign that here:
+
+<img width="962" height="731" alt="image" src="https://github.com/user-attachments/assets/72001069-fff5-40c7-8517-91438fbb6618" />
+
+In 'Setting', we'll set the Role type and duration:
+
+<img width="807" height="572" alt="image" src="https://github.com/user-attachments/assets/e3987d8b-3893-451b-b9b1-29a86f98093c" />
+
+We can see it's activated under 'Assignments'
+
+<img width="2205" height="675" alt="image" src="https://github.com/user-attachments/assets/8936567e-26d0-4d0b-a67f-8c57877d6e0d" />
+
+
+The user can go to that selected Resource and activate the role the same way!
 
