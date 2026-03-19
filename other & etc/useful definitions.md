@@ -20,3 +20,6 @@ It’s about the overall state of the user—not just one session.
 **Sign-in risk** - Microsoft believes a specific authentication attempt is risky.
 It’s about the context of that one login—IP, device, location, behavior.
 
+**Windows Hello for Business** - Allows users to authenticate with their device without transmitting their password. Users can use biometrics like their face, fingerprint or a PIN. 
+Login is password-less and uses a key not passwords.
+
