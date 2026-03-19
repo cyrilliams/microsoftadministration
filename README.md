@@ -2,6 +2,7 @@
 
 <img width="768" height="199" alt="image" src="https://github.com/user-attachments/assets/8076f9c3-b60d-4fbe-87e4-f08bc512a24f" />
 
+---
 
 This repo will go over my experience and learning with Microsoft administration, including but not limited to:
 
@@ -23,7 +24,6 @@ I will plan to also take and pass the following Microsoft Certifications:
 - Microsoft MD-102: Endpoint Administrator Associate
 
   
-
 - Microsoft MS-102: Microsoft 365 Administrator Expert
 
 I plan to use these skills in my current work environment as well as progress my skills and understanding of Microsoft based environments.
