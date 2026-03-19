@@ -14,3 +14,9 @@ Authentication is done by a 3rd party organization or another company/organizati
 **SSO** - Using your organization login to sign in to a 3rd party application. 
 Allows you to be automatically logged in to 3rd party apps because your credentials have already been setup and recognized as legit and verifiable.
 
+**User risk** - Microsoft believes the identity (the user account) may be compromised.
+It’s about the overall state of the user—not just one session.
+
+**Sign-in risk** - Microsoft believes a specific authentication attempt is risky.
+It’s about the context of that one login—IP, device, location, behavior.
+
