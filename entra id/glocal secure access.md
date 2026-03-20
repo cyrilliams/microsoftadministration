@@ -86,9 +86,9 @@ We get this notification to sign in:
 
 <img width="376" height="168" alt="image" src="https://github.com/user-attachments/assets/2029cf1e-4665-4ca5-bff4-2dd2586b050a" />
 
-After signing in, we the GAS is enabled *(but not set up properly in my case)*
+After signing in, we the GAS is enabled and connected!
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1a5614f6-58cb-4ebd-bb95-f8989827f756" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f62343d2-8b63-4ec3-bbb8-e927144d9900" />
 
 
 
