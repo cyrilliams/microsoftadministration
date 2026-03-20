@@ -23,3 +23,7 @@ It’s about the context of that one login—IP, device, location, behavior.
 **Windows Hello for Business** - Allows users to authenticate with their device without transmitting their password. Users can use biometrics like their face, fingerprint or a PIN. 
 Login is password-less and uses a key not passwords.
 
+**Entra ID Protection vs Defender for Indentity** - Entra ID protects against attacks/malicious activity against users in Entra ID
+while Defender for Identity protects against on premise accounts.
+
+
