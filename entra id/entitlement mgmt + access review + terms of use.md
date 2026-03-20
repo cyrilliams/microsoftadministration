@@ -115,9 +115,29 @@ And we can view it in the Access reviews tab as well:
 
 <img width="1633" height="525" alt="image" src="https://github.com/user-attachments/assets/c9101409-60e1-4d89-bd81-21fdc8dcb207" />
 
+In this setup, the set Admin has to approve the Access Review.
+*This can be found in the My Account Portal*
 
-*Unfinished - unfortunately something in my domain/identity is not setup correctly and is not allowing users to see access reviews
-In the scenario, the user would review an access review, the admin would allow or deny that request, and the user would be enrolled/un-enrolled into whatever resource was configured*
+<img width="1918" height="643" alt="image" src="https://github.com/user-attachments/assets/1b97cd63-2674-4242-980b-e23fc7fbf11e" />
+
+#### Self Review
+
+You can also set users to be able to review thier own access as well in the Access Review setup:
+
+<img width="565" height="495" alt="image" src="https://github.com/user-attachments/assets/acb5ece5-54a1-496d-a189-e1f69cf74857" />
+
+Now, if we go into the user in the reviewed Group, we can see they can Approve or Deny their own Access:
+
+<img width="1898" height="569" alt="image" src="https://github.com/user-attachments/assets/f7d641df-1293-4873-9837-93690b653eef" />
+
+They can provide a justification and provide their answer:
+
+<img width="1906" height="574" alt="image" src="https://github.com/user-attachments/assets/7bac0e78-2f1b-4f3e-9cfc-48ecac2c9cc0" />
+
+Now back in our Admin account, we can see that the user has been Approved:
+
+<img width="1628" height="404" alt="image" src="https://github.com/user-attachments/assets/da6ca8fa-f1e6-437c-98b3-584834631c10" />
+
 
 ---
 
