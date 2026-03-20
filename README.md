@@ -26,4 +26,6 @@ I will plan to also take and pass the following Microsoft Certifications:
   
 - Microsoft MS-102: Microsoft 365 Administrator Expert
 
+---
+
 I plan to use these skills in my current work environment as well as progress my skills and understanding of Microsoft based environments.
