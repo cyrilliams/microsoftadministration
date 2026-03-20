@@ -2,6 +2,7 @@
 
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/bfe6302c-68bc-4fc7-8506-43444a464239" />
 
+---
 
 In this doc, we'll go through the flow of setting up Global Secure Access.
 
