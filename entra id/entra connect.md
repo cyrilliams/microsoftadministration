@@ -50,6 +50,19 @@ Our synchronization is complete, and we can see the Connect shortcut has been ad
 
 ## Verify Connect & Syncronization
 
+
+Current Active Directory users (2):
+
+Lake Worth OU:
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/391a247e-4645-4427-9047-c4d1d72e110d" />
+
+Ft. Lauderdale OU:
+
+<img width="730" height="329" alt="image" src="https://github.com/user-attachments/assets/0f630984-a004-48a5-8fa9-9612ad4c25ba" />
+
+
+
 If we go back to **Entra ID > Entra Connect > Connect Sync**,
 we can see the sync status is enable and the last sync was less than an hour ago.
 
