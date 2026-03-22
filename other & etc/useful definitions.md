@@ -35,3 +35,7 @@ while Defender for Identity protects against on premise accounts.
 
 **Set-MgUserLicense** - ```Set-MgUserLicense``` cmdlet in Microsoft Graph PowerShell is used to add or remove licenses for a user, enabling or disabling their access to Microsoft cloud offerings that the organization has licenses for. 
 
+**Risk Detection**
+- User risk represents the probability an identity is compromised.
+- Sign-in risk represents the probability a sign-in is compromised (for example, the identity owner didn't authorize the sign-in).
+
