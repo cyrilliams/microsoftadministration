@@ -26,4 +26,12 @@ Login is password-less and uses a key not passwords.
 **Entra ID Protection vs Defender for Indentity** - Entra ID protects against attacks/malicious activity against users in Entra ID
 while Defender for Identity protects against on premise accounts.
 
+**Nested Groups** - Nested groups in Microsoft technologies, such as Azure AD and Microsoft 365, allow you to add an existing group as a member of another group. This is particularly useful for managing access to shared resources and simplifying the assignment of permissions.
+- Access and Permissions - Only members of the parent group have access to shared resources and applications. Therefore, careful management of group memberships is essential to maintain security and proper access control.
+- Nesting Limitations
+  - You cannot add groups that are synced with on-premises Active Directory to other groups.
+  - Security groups cannot be added to Microsoft 365 groups and vice versa.
+  - Nested groups do not gain access to shared resources and applications assigned to the parent group.
+
+**Set-MgUserLicense** - ```Set-MgUserLicense``` cmdlet in Microsoft Graph PowerShell is used to add or remove licenses for a user, enabling or disabling their access to Microsoft cloud offerings that the organization has licenses for. 
 
