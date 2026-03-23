@@ -39,3 +39,30 @@ while Defender for Identity protects against on premise accounts.
 - User risk represents the probability an identity is compromised.
 - Sign-in risk represents the probability a sign-in is compromised (for example, the identity owner didn't authorize the sign-in).
 
+**Important Entra Roles To Know**
+
+**Global & Priviledged**
+- Global Administrator - full control over tenant
+- Priviledged Role Administrator - manages roles and PIM, cannot manage users, manages access reviews for roles, manage admin units, create role-assignable groups,
+- Security Administrator - manages security related functinos (Conditional Access, Identity Protection, Defender, Intune, Defender for Cloud apps, password protection, smart lockout)
+- Security Operator - can manage alers and get read access to all security related features, has all Security Reader features
+- Security Reader - can only read security realted things, not manage
+  
+**User & Identity**
+- User Administrator - creates and manages users and groups but cannot manage admins, can manage properties for users and groups, disable & delete users, assign licences for users, reset passwords
+- Helpdesk Administrator - can reset passwords and manage service health and  service health, force sign out, manage support tickets,
+- Password Administrator - can reset passwords but cannot manage service requests or monitor service health
+- Authentication Administrator - manages MFA methods, can reset and revoke MFA and passwords for non-admins,
+
+**Application & Enterprise App**
+- Application Administrator - manages app and enterprise registration but cannot grant tenant wide consnet
+- Cloud App Administrator - manages cloud apps, cannot grant consent
+
+**Governance & Access**
+- Identity Governancfe Administrator - access review, entitlement management
+- Priveledged Authtentication Administrator - manages sensitive authentication changes like authentication for admins
+
+**Conditional Access**
+- Conditional Access Administrator - manages conditional access policies
+
+
