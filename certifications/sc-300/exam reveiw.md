@@ -1,4 +1,4 @@
-# Concepts to Review
+# Exam Questions to Review
 
 ---
 
@@ -182,6 +182,80 @@ Passthrough Authentication doesn’t sync, just checks.
 https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-writeback
 
 ---
+our company has an Azure Active Directory (Azure AD) tenant named contoso.com. The company has a business partner named Fabrikam, Inc.
 
+Fabrikam uses Azure AD and has two verified domain names of fabrikam.com and litwareinc.com. Both domain names are used for Fabrikam email addresses.
+
+You plan to create an access package named package1 that will be accessible only to the users at Fabrikam.
+
+You create a connected organization for Fabrikam.
+
+You need to ensure that the package1 will be accessible only to users who have fabrikam.com email addresses.
+
+What should you do? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+<img width="1002" height="428" alt="image" src="https://github.com/user-attachments/assets/7c23eb4a-b0e8-4abd-9456-97e1fa9d69b0" />
+
+In the policy, you can assign an Access Package to a ‘Connected Organization’ by typing one of its domain names. However, users with any of the directory’s domains in their UPN will be able to request the package , (both Fabrikam and Litware) unless those domains are blocked by the B2B allow or deny domain list. => To block specific domains, you need to configure this in the External Collaboration settings (under ‘Deny invitations to the specified domains’)
+
+https://docs.microsoft.com/en-us/azure/active-directory/governance/entitlement-management-access-package-request-policy 
+https://docs.microsoft.com/en-us/azure/active-directory/governance/entitlement-management-access-package-create
+
+---
+
+You have an Azure subscription that contains the resources shown in the following table.
+
+<img width="594" height="120" alt="image" src="https://github.com/user-attachments/assets/2535a337-dfa1-4dff-9685-c5430397d5ed" />
+
+
+For which resources can you create an access review?
+
+**All resources**
+
+---
+
+All users have mobile phones and Windows 10 laptops.
+
+The users frequently work from remote locations that do not have Wi-Fi access or mobile phone connectivity. While working from the remote locations, the users connect their laptop to a wired network that has internet access.
+
+You plan to implement multi-factor authentication (MFA).
+
+Which MFA authentication method can the users use from the remote location?
+
+The correct answer is:
+
+A. A verification code from the Microsoft Authenticator app
+
+Explanation:
+
+The users are in remote locations with no Wi-Fi or mobile phone connectivity, but they do have internet access via a wired network.
+
+Analysis of Each Option:
+
+A. A verification code from the Microsoft Authenticator app (Correct)
+
+The Authenticator app generates time-based one-time passwords (TOTP) that do not require internet or cellular connectivity.
+
+This method works entirely offline, making it the best choice for remote locations.
+
+B. SMS (Incorrect)
+
+Requires mobile network connectivity, which the scenario states is not available.
+
+C. An app password (Incorrect)
+
+App passwords are only used for legacy authentication, which should be avoided in modern security setups.
+
+Microsoft is deprecating app passwords as part of stronger MFA enforcement.
+
+D. A notification through the Microsoft Authenticator app (Incorrect)
+
+Push notifications require an internet connection, which is not available via mobile in this scenario.
+
+---
 
 
