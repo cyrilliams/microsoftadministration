@@ -111,7 +111,77 @@ But if the user is also in an excluded group, the policy does NOT apply — even
 
 ---
 
+You need to ensure that User1 can create access reviews for groups, and that User2 can review the history report for all the completed access reviews. The solution must use the principle of least privilege.
 
+Which role should you assign to each user?
+
+<img width="767" height="438" alt="image" src="https://github.com/user-attachments/assets/2c47d416-fa17-43d3-bf38-fb7e3c0d22f5" />
+
+**User 1: User Administrator***
+
+**User 2: Report Reader**
+
+Ref: https://learn.microsoft.com/en-us/azure/active-directory/roles/delegate-by-task
+
+---
+
+An on-premises Active Directory domain is configured to sync with the Azure AD tenant. The domain contains the servers shown in the following table.
+
+<img width="1379" height="220" alt="image" src="https://github.com/user-attachments/assets/7474e418-5bba-4735-b922-74563d47050a" />
+
+The domain controllers are prevented from communicating to the internet.
+
+You implement Azure AD Password Protection on Server1 and Server2.
+
+You deploy a new server named Server4 that runs Windows Server 2022.
+
+You need to ensure that Azure AD Password Protection will continue to work if a single server fails.
+
+What should you implement on Server4?
+
+**Azure AD Password Protection proxy service**
+- Proects against weak passwords on on-prem directories.
+- No direct internet connection needed to the domain controller using Active Directory
+- Uses same rules for blocking weak password as Entra ID
+
+
+
+https://learn.microsoft.com/en-us/entra/identity/authentication/concept-password-ban-bad-on-premises#how-microsoft-entra-password-protection-works
+
+---
+
+Break Glass Account
+
+Where should you create BreakGlass, and which role should you assign to BreakGlass? To answer, select the appropriate options in the answer area.
+
+<img width="669" height="411" alt="image" src="https://github.com/user-attachments/assets/c2075b42-83ad-456c-a649-cb15bdc35ec6" />
+
+**Azure AD (Entra ID) and Global Administrator**
+
+Explanation: A break-glass account is a highly privileged account meant to be used in emergency situations where normal administration cannot be performed. As such, it should be created directly in Azure AD so it's not dependent on the on-premises AD DS domain. These accounts should be cloud-only accounts that use the *.onmicrosoft.com domain and that aren't federated or synchronized from an on-premises environment. The Global Administrator role will provide the broadest level of permissions to address potential emergency issues. Remember, such accounts should be protected with strong, complex passwords, ideally stored securely off-line, and should only be used for temporary and emergency purposes.
+
+
+https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access#create-emergency-access-accounts
+
+---
+
+You need to configure self-service password reset (SSPR) to meet the following requirements:
+
+✑ When users reset their password, they must be prompted to respond to a mobile app notification or answer three predefined security questions.
+
+✑ Passwords must be synced between the tenant and the domain regardless of where the password was reset.
+
+What should you do? To answer, select the appropriate options in the answer area.
+
+<img width="971" height="381" alt="image" src="https://github.com/user-attachments/assets/f0f77104-a460-449f-a665-72d7c93ff36e" />
+
+Password Hash Syncronization copies passwords up. Only goes from on-prem to cloud.
+Writeback sends them back down. Goes from on prem to cloud or cloud to on prem.
+Passthrough Authentication doesn’t sync, just checks.
+
+https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-writeback
+
+---
 
 
 
