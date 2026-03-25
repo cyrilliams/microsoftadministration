@@ -258,4 +258,61 @@ Push notifications require an internet connection, which is not available via mo
 
 ---
 
+You have an Azure Active Directory (Azure AD) tenant that contains the following objects.
+
+✑ A device named Device1
+
+✑ Users named User1, User2, User3, User4, and User5
+
+Five groups named Group1, Group2, Group3, Group4, and Group5
+Question
+
+The groups are configured as shown in the following table.
+
+<img width="585" height="134" alt="image" src="https://github.com/user-attachments/assets/1bd054a3-29fc-4b44-8763-99116cbbbda7" />
+
+How many licenses are used if you assign the Microsoft 365 Enterprise E5 license to Group1?
+
+
+2 
+
+Nested group do not inherit licenses.
+
+---
+
+You have an Azure Active Directory (Azure AD) tenant named contoso.com.
+
+You need to ensure that Azure AD External Identities pricing is based on monthly active users (MAU).
+
+What should you configure?
+
+**Linked Subscription**
+
+Azure AD External Identities pricing is based on monthly active users (MAU) when your tenant is linked to a subscription. This means that you will only be charged for the number of users who actively use Azure AD External Identities in a given month.
+
+https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-pricing#what-do-i-need-to-do
+
+---
+
+
+You have an Azure Active Directory (Azure AD) tenant and an Azure web app named App1.
+
+You need to provide guest users with self-service sign-up for App1. The solution must meet the following requirements:
+
+✑ Guest users must be able to sign up by using a one-time password.
+
+✑ The users must provide their first name, last name, city, and email address during the sign-up process.
+
+What should you configure in the Azure Active Directory admin center for each requirement? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+<img width="848" height="492" alt="image" src="https://github.com/user-attachments/assets/937e4921-49e8-44dc-91a6-16c546aba8c3" />
+
+https://docs.microsoft.com/en-us/azure/active-directory/external-identities/identity-providers https://docs.microsoft.com/en-us/azure/active-directory/external-identities/self-service-sign-up-overview
+
+---
+
 
