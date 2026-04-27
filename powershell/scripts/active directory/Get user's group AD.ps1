@@ -1,5 +1,5 @@
 #$creds = Get-Credential
-$DC = "lwvads2.ems.inc"
+$DC = "dc01.cyriltest.site"
 $user = "cwilliams"
 
 
