@@ -176,5 +176,8 @@ registered
 
 ---
 
+## Conclusion
 
+API's are a great way to return data from websites or services not owned or controlled by you. 
+These are some simple ways to return, sort and filter data.
 
