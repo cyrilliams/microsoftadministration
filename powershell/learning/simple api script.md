@@ -1,4 +1,4 @@
-# Simple API Script
+# Simple API Script - Invoke-RestMethod
 
 In this doc, I'll be going over a simple scrip to help me learn about API's and how they work.
 
